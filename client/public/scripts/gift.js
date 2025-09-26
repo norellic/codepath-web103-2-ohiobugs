@@ -2,7 +2,7 @@ const renderGift = async () => {
 
     const requestedID = parseInt(window.location.href.split('/').pop())
 
-    const response = await fetch('/gifts')
+    const response = await fetch('/bugs')
     const data = await response.json()
 
     const giftContent = document.getElementById('gift-content')
@@ -22,7 +22,7 @@ const renderGift = async () => {
     }
     else {
         const message = document.createElement('h2')
-        message.textContent = 'No Gifts Available 😞'
+        message.textContent = 'No Bugs Available 😞'
         giftContent.appendChild(message) 
     }
 

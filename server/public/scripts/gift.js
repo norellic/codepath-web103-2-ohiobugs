@@ -22,7 +22,7 @@ const renderGift = async () => {
     }
     else {
         const message = document.createElement('h2')
-        message.textContent = 'No Gifts Available 😞'
+        message.textContent = 'No Bugs Available 😞'
         giftContent.appendChild(message) 
     }
 

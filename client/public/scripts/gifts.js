@@ -1,5 +1,5 @@
 const renderGifts = async () => {
-    const response = await fetch('/gifts');
+    const response = await fetch('/bugs');
     const data = await response.json();
     const mainContent = document.getElementById('main-content');
 
@@ -32,7 +32,7 @@ const renderGifts = async () => {
             link.textContent = 'Read More';
             link.classList.add('btn', 'btn-primary'); // Pico's button classes
             link.setAttribute('role', 'button');
-            link.href = `/gifts/${gift.id}`;
+            link.href = `/bugs/${gift.id}`;
             bottomContainer.appendChild(link);
 
             card.appendChild(topContainer);
@@ -41,7 +41,7 @@ const renderGifts = async () => {
         });
     } else {
         const message = document.createElement('h2');
-        message.textContent = 'No Gifts Available 😞';
+        message.textContent = 'No Bugs Available 😞';
         mainContent.appendChild(message);
     }
 };
