@@ -20,7 +20,7 @@ const renderGifts = async () => {
             topContainer.style.backgroundImage = `url(${gift.image})`
 
             const name = document.createElement('h3')
-            name.textContent = gift.name
+            name.textContent = gift.name 
             bottomContainer.appendChild(name)
 
             const pricePoint = document.createElement('p')
