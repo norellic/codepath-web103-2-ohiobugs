@@ -1,9 +1,9 @@
-const giftData = [
+const bugData = [
     {
         "id": 1,
         "name": "Spotted Lanternfly",
-        "pricePoint": "passive", //dispostion
-        "audience": "North", //region
+        "disposition": "passive", //dispostion
+        "region": "North", //region
         "image":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMysmFIY0b0XaM1BQbgEgmpxcfmO3pBnulU661buTRHjtZA3X4",
         "description":"This invasive planthopper species feeds on tree sap and can cause significant damage to fruit trees, hardwoods, and grapevines. Adults are grayish with black spots and bright red underwings that flash when they fly or jump.",
         "submittedBy":"Marina",
@@ -12,8 +12,8 @@ const giftData = [
     {
         "id": 2,
         "name": "Rabbit Bot Fly",
-        "pricePoint": "agressive",
-        "audience": "South",
+        "disposition": "agressive",
+        "region": "South",
         "image":"https://static.inaturalist.org/photos/4460314/small.jpg",
         "description":"This parasitic fly lays its eggs near rabbit burrows, and the larvae develop as parasites under the skin of rabbits and other small mammals. The adult flies are large, fuzzy, and bee-like in appearance, often mistaken for bumblebees.",
         "submittedBy":"Jeff",
@@ -22,8 +22,8 @@ const giftData = [
     {
         "id": 3,
         "name": "Eastern Cicada Killer",
-        "pricePoint": "agressive",
-        "audience": "South",
+        "disposition": "agressive",
+        "region": "South",
         "image":"https://inaturalist-open-data.s3.amazonaws.com/photos/169910/small.jpg",
         "description":"These large solitary wasps hunt cicadas to provision their underground nests, paralyzing them to feed their larvae. Despite their intimidating size of up to two inches long, they are generally docile toward humans and rarely sting unless directly handled.",
         "submittedBy":"Linda",
@@ -32,8 +32,8 @@ const giftData = [
     {
         "id": 4,
         "name": "Spice Bush Swallowtail",
-        "pricePoint": "passive",
-        "audience": "West",
+        "disposition": "passive",
+        "region": "West",
         "image":"https://inaturalist-open-data.s3.amazonaws.com/photos/18726/small.jpg",
         "description":"This beautiful black butterfly with iridescent blue-green markings on its hindwings is commonly found in wooded areas throughout Ohio. The caterpillars feed primarily on spicebush and sassafras plants and have large false eyespots to deter predators.",
         "submittedBy": "Arianna",
@@ -42,8 +42,8 @@ const giftData = [
     {
         "id": 5,
         "name": "Tri-Colored Bumblebee",
-        "pricePoint": "passive",
-        "audience": "East",
+        "disposition": "passive",
+        "region": "East",
         "image":"https://inaturalist-open-data.s3.amazonaws.com/photos/115590/small.jpg",
         "description":"This native bee species displays distinctive yellow, black, and reddish-orange coloring and plays a crucial role in pollinating wildflowers and crops. They form annual colonies with queens that overwinter alone and establish new colonies each spring.",
         "submittedBy":"Sophie",
@@ -51,4 +51,4 @@ const giftData = [
     }
 ]
 
-export default giftData
+export default bugData

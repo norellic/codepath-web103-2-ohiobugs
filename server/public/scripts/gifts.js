@@ -20,13 +20,13 @@ const renderGifts = async () => {
             name.textContent = gift.name;
             bottomContainer.appendChild(name);
 
-            const pricePoint = document.createElement('p');
-            pricePoint.textContent = `Price: ${gift.pricePoint}`;
-            bottomContainer.appendChild(pricePoint);
+            const disposition = document.createElement('p');
+            disposition.textContent = `Disposition: ${gift.disposition}`;
+            bottomContainer.appendChild(disposition);
 
-            const audience = document.createElement('p');
-            audience.textContent = `Great For: ${gift.audience}`;
-            bottomContainer.appendChild(audience);
+            const region = document.createElement('p');
+            region.textContent = `Region: ${gift.region}`;
+            bottomContainer.appendChild(region);
 
             const link = document.createElement('a');
             link.textContent = 'Read More';
