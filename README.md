@@ -28,7 +28,3 @@ The following **optional** features are implemented:
 
 <img src='https://github.com/norellic/ohiobugs/blob/main/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
