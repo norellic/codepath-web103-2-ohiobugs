@@ -2,8 +2,8 @@ const bugData = [
     {
         "id": 1,
         "name": "Spotted Lanternfly",
-        "disposition": "passive", //dispostion
-        "region": "North", //region
+        "disposition": "passive",
+        "region": "North",
         "image":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMysmFIY0b0XaM1BQbgEgmpxcfmO3pBnulU661buTRHjtZA3X4",
         "description":"This invasive planthopper species feeds on tree sap and can cause significant damage to fruit trees, hardwoods, and grapevines. Adults are grayish with black spots and bright red underwings that flash when they fly or jump.",
         "submittedBy":"Marina",
