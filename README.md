@@ -1,4 +1,4 @@
-# WEB103 Project 1 - *Ohio Bugs*
+# WEB103 Project 2 - *Ohio Bugs*
 
 Submitted by: **Noelle Garrick**
 
@@ -21,5 +21,5 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-<img src='https://github.com/norellic/ohiobugs/blob/main/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/norellic/codepath-web103-2-ohiobugs/blob/main/gif%20(3).gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
